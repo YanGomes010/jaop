@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes slider {
+    0% {
+        background: url("./images/image_1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    20% {
+        background: url("./images/image_1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    40% {
+        background: url("./images/image_2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    60% {
+        background: url("./images/image_2.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    80% {
+        background: url("./images/image_3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background: url("./images/image_3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*BODY*/
+#site-content {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+/*HEADER*/
+#site-content header {
+    width: 100%;
+    height: 80px;
+    background-color: #FBD38F;
+    font-family: 'Kavoon', serif;
+}
+
+#site-content header #header-box {
+    width: 100%;
+}
+
+#site-content header #header-box #box-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-content header #header-box #box-container #logo img {
+    width: 70px;
+    height: 70px;
+}
+
+#site-content header #header-box #box-container #menu #ul-menu {
+    list-style-type: none;
+}
+
+#site-content header #header-box #box-container #menu #ul-menu .li-menu {
+    display: inline;
+    margin-right: 25px;
+}
+
+/*MAIN*/
+
+#site-content main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#site-content main #main-box {
+    width: 100%;
+}
+
+#site-content main #main-box #slider-box {
+    width: 100%;
+    height: 400px;
+    animation: slider 12s infinite;
+}
+
+#site-content main #main-box #slider-box #slider-content {
+    width: 100%;
+}
+
+#site-content main #main-box #slider-box #slider-content .slider_item {
+    width: 100%;
+}
+
+#site-content main #span-menu {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-family: 'Kavoon', serif;
+}
+
+/*CARD*/
+
+#products-box {
+    width: 100%;
+}
+
+#products-box #products-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#products-box #products-content .card {
+    width: 300px;
+    height: 500px;
+    background-color: #FBEACE;
+    position: relative;
+    border-radius: 25px 25px 0 0;
+    margin: 15px 0 15px 0;
+}
+
+#products-box #products-content .card .img-card {
+    width: 100%;
+}
+
+#products-box #products-content .card .img-card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px 25px 0 0;
+}
+
+#products-box #products-content .card .value-size-card {
+    width: 100%;
+    height: 25px;
+}
+
+#products-box #products-content .card .value-size-card .value-size-info {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Kantumruy Pro', sans-serif;
+
+}
+
+#products-box #products-content .card .value-size-card .value-size-content {
+    width: 90%;
+    margin: 10px auto;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#products-box #products-content .card .value-size-card .value-size-content .value-box{
+    position: relative;
+    width: 167px;
+}
+
+#products-box #products-content .card .value-size-card .value-size-content .value-box .value-real {
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+#products-box #products-content .card .value-size-card .value-size-content .value-box .value-promotion {
+    font-style: oblique;
+    font-size: .9em;
+    color: #7C7A7A;
+    text-decoration: line-through;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+#products-box #products-content .card .value-size-card .value-size-content .size-box{
+    width: 70px;
+}
+#products-box #products-content .card .value-size-card .value-size-content .size-box .size {
+    font-size: 1.6em;
+    font-family: 'Kavoon', serif;
+}
+
+#products-box #products-content .card .button-card {
+    width: 100%;
+    padding: .2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    background-color: #D67630;
+    font-family: 'Kavoon', serif;
+    color: #fff;
+    font-size: 1.7em;
+    border: none;
+    cursor: pointer;
+}
+
+#products-box #products-content .card .span-info-card {
+    padding: 1em;
+    margin-top: 22px;
+    text-align: justify;
+}
+
+#products-box #products-content .card .span-info-card .info-product-card{
+    font-size: .9em;
+    color: #282828;
+}

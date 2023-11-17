@@ -1,0 +1,36 @@
+{
+    "alimentos": [
+        {
+            "tipo": "Pizza de Calabresa",
+            "valor": "R$ 92,00",
+            "promocao": "R$ 84,99",
+            "tamanho": "XG",
+            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+            "url": "./images/pizza-calabresa.jpg"
+        },
+        {
+            "tipo": "Feijoada",
+            "valor": "R$ 42,00",
+            "promocao": "R$ 32,99",
+            "tamanho": "M",
+            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+            "url": "./images/feijoada.jpg"
+        },
+        {
+            "tipo": "Massa Italiana",
+            "valor": "R$ 92,00",
+            "promocao": "R$ 84,99",
+            "tamanho": "M",
+            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+            "url": "./images/massa-italiana.jpg"
+        },
+        {
+            "tipo": "Pizza de Queijo",
+            "valor": "R$ 82,00",
+            "promocao": "R$ 79,99",
+            "tamanho": "XG",
+            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+            "url": "./images/pizza-queijo.jpg"
+        }
+    ]
+}
