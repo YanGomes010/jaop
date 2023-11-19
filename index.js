@@ -1,12 +1,11 @@
 let product_content = document.querySelector("#products-content");
-
+let array_buttons = [];
 fetch("DB.json")
-    .then((resp) => resp.json())
-    .then((arrayAlimentos) => {
-        let alimentos = arrayAlimentos.alimentos
-        for (let i = 0; i < 4; i++) {
-            product_content.innerHTML +=
-                `<div class='card'>
+  .then((resp) => resp.json())
+  .then((arrayAlimentos) => {
+    let alimentos = arrayAlimentos.alimentos;
+    for (let i = 0; i < 4; i++) {
+      product_content.innerHTML += `<div class='card'>
             <div class='img-card'>
                 <img src='${alimentos[i].url}' alt=''>
             </div>
@@ -28,10 +27,24 @@ fetch("DB.json")
             <div class='span-info-card'>
             <span class='info-product-card'>${alimentos[i].infos}</span>
         </div>
-            <button onclick="capturaBTN()" id="btn-card-${i}"class='button-card'><span>+Info</span></button>
-        </div>`
+            <button id="btn-card-${i}"class='button-card'>+Info</button>
+        </div>`;
+      array_buttons.push("btn-card-" + [i]);
+    }
+
+    function capturaBTN(e) {
+      let id_element = e.target.id;
+
+      for (let i = 0; i < array_buttons.length; i++) {
+        if (array_buttons[i] == id_element) {
+          console.log(alimentos[i]);
         }
-    })
+      }
+    }
 
+    let buttons = document.querySelectorAll("button");
+    buttons.forEach(function (element) {
+      element.addEventListener("click", capturaBTN);
+    });
 
-
+  });

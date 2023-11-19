@@ -12,7 +12,7 @@
     }
 
     20% {
-        background: url("./images/image_1.jpg");
+        background: url("./images/image_2.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -24,7 +24,7 @@
     }
 
     60% {
-        background: url("./images/image_2.jpg");
+        background: url("./images/image_3.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -36,7 +36,7 @@
     }
 
     100% {
-        background: url("./images/image_3.jpg");
+        background: url("./images/image_1.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -194,7 +194,7 @@
     right: 0;
 }
 #products-box #products-content .card .value-size-card .value-size-content .size-box{
-    width: 70px;
+    width: 65px;
 }
 #products-box #products-content .card .value-size-card .value-size-content .size-box .size {
     font-size: 1.6em;
