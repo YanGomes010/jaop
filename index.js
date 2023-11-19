@@ -1,5 +1,6 @@
 let product_content = document.querySelector("#products-content");
 let array_buttons = [];
+let show_info_foods = document.querySelector("#show-info-foods")
 fetch("DB.json")
   .then((resp) => resp.json())
   .then((arrayAlimentos) => {
@@ -27,7 +28,7 @@ fetch("DB.json")
             <div class='span-info-card'>
             <span class='info-product-card'>${alimentos[i].infos}</span>
         </div>
-            <button id="btn-card-${i}"class='button-card'>+Info</button>
+            <button id="btn-card-${i}"class='button-card'>Pedir</button>
         </div>`;
       array_buttons.push("btn-card-" + [i]);
     }
@@ -37,7 +38,9 @@ fetch("DB.json")
 
       for (let i = 0; i < array_buttons.length; i++) {
         if (array_buttons[i] == id_element) {
-          console.log(alimentos[i]);
+          show_info_foods.innerHTML=`
+          
+          `
         }
       }
     }
