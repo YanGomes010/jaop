@@ -9,7 +9,7 @@
       "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
       "url": "./images/pizza-calabresa.jpg",
       "qtdServ": "Serve até 5 pessoas",
-      "unidades": 0
+      "unidades": 1
     },
     {
       "id": 1,
@@ -20,7 +20,7 @@
       "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
       "url": "./images/feijoada.jpg",
       "qtdServ": "Serve até 5 pessoas",
-      "unidades": 0
+      "unidades": 1
     },
     {
       "id": 2,
@@ -31,7 +31,7 @@
       "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
       "url": "./images/massa-italiana.jpg",
       "qtdServ": "Serve até 5 pessoas",
-      "unidades": 0
+      "unidades": 1
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
       "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
       "url": "./images/pizza-queijo.jpg",
       "qtdServ": "Serve até 5 pessoas",
-      "unidades": 0
+      "unidades": 1
     }
   ]
 }

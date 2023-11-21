@@ -75,18 +75,6 @@
   height: 70px;
 }
 
-#site-content header #header-box #box-container #menu #ul-menu {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#site-content header #header-box #box-container #menu #ul-menu .li-menu {
-  display: inline;
-  margin-right: 25px;
-}
-
 /*MAIN*/
 
 #site-content main {
@@ -264,12 +252,12 @@
   width: 100%;
   max-width: 300px;
   min-width: 250px;
-  height: 100%;
+  height: 100vh;
   background-color: #d67630;
   top: 0;
   left: 0;
   transition: 1s ease-in;
-  display: block;
+  display: none;
 }
 
 #site-content #menu-bar .button-menu-bar {
@@ -304,9 +292,13 @@
     font-size: 1.7em;
     color: #fff;
 }#site-content #menu-bar #content-menu-bar #menu-bar-items{
-  overflow-y: scroll;
+  overflow-y:auto;
+  scroll-snap-type: y mandatory;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
   z-index: 5;
-  height: 100%;
+  height: 100vh;
   max-height: 700px;
 }
 #site-content #menu-bar #content-menu-bar #menu-bar-items .box-food-menu-bar {
