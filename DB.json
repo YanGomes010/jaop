@@ -1,40 +1,48 @@
 {
-    "alimentos": [
-        {
-            "tipo": "Pizza de Calabresa",
-            "valor": "R$ 92,00",
-            "promocao": "R$ 84,99",
-            "tamanho": "XG",
-            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
-            "url": "./images/pizza-calabresa.jpg",
-            "qtdServ":"Serve até 5 pessoas"
-        },
-        {
-            "tipo": "Feijoada",
-            "valor": "R$ 42,00",
-            "promocao": "R$ 32,99",
-            "tamanho": "M",
-            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
-            "url": "./images/feijoada.jpg",
-            "qtdServ":"Serve até 5 pessoas"
-        },
-        {
-            "tipo": "Massa Italiana",
-            "valor": "R$ 92,00",
-            "promocao": "R$ 84,99",
-            "tamanho": "M",
-            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
-            "url": "./images/massa-italiana.jpg",
-            "qtdServ":"Serve até 5 pessoas"
-        },
-        {
-            "tipo": "Pizza de Queijo",
-            "valor": "R$ 82,00",
-            "promocao": "R$ 79,99",
-            "tamanho": "XG",
-            "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
-            "url": "./images/pizza-queijo.jpg",
-            "qtdServ":"Serve até 5 pessoas"
-        }
-    ]
+  "alimentos": [
+    {
+      "id": 0,
+      "tipo": "Pizza de Calabresa",
+      "valor": "R$ 92,00",
+      "promocao": "R$ 84,99",
+      "tamanho": "XG",
+      "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+      "url": "./images/pizza-calabresa.jpg",
+      "qtdServ": "Serve até 5 pessoas",
+      "unidades": 0
+    },
+    {
+      "id": 1,
+      "tipo": "Feijoada",
+      "valor": "R$ 42,00",
+      "promocao": "R$ 32,99",
+      "tamanho": "M",
+      "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+      "url": "./images/feijoada.jpg",
+      "qtdServ": "Serve até 5 pessoas",
+      "unidades": 0
+    },
+    {
+      "id": 2,
+      "tipo": "Massa Italiana",
+      "valor": "R$ 92,00",
+      "promocao": "R$ 84,99",
+      "tamanho": "M",
+      "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+      "url": "./images/massa-italiana.jpg",
+      "qtdServ": "Serve até 5 pessoas",
+      "unidades": 0
+    },
+    {
+      "id": 3,
+      "tipo": "Pizza de Queijo",
+      "valor": "R$ 82,00",
+      "promocao": "R$ 79,99",
+      "tamanho": "XG",
+      "infos": "Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa especial",
+      "url": "./images/pizza-queijo.jpg",
+      "qtdServ": "Serve até 5 pessoas",
+      "unidades": 0
+    }
+  ]
 }

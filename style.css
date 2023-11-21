@@ -268,7 +268,8 @@
   background-color: #d67630;
   top: 0;
   left: 0;
-  transition: 0.5s ease-in;
+  transition: 1s ease-in;
+  display: block;
 }
 
 #site-content #menu-bar .button-menu-bar {
@@ -290,14 +291,25 @@
 }
 #site-content #menu-bar #content-menu-bar{
     margin-top: 40px;
-    text-align: center;
+}
+#site-content #menu-bar #content-menu-bar .menu-bar-fullValue-close-menu{
+  width: 95%;
+  margin: 50px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #site-content #menu-bar #content-menu-bar .menu-bar-value-full{
     font-size: 1.7em;
     color: #fff;
+}#site-content #menu-bar #content-menu-bar #menu-bar-items{
+  overflow-y: scroll;
+  z-index: 5;
+  height: 100%;
+  max-height: 700px;
 }
-#site-content #menu-bar #content-menu-bar .box-food-menu-bar {
+#site-content #menu-bar #content-menu-bar #menu-bar-items .box-food-menu-bar {
   background-color: #e98943;
   color: #fff;
   width: 95%;
@@ -310,17 +322,17 @@
 }
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 45%;
+    width: 50%;
 }
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one
   .square-one-qtd {
@@ -330,11 +342,13 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one
   article
   {
+
+    margin: 5px 0 5px 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -344,7 +358,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one
   article
@@ -354,7 +368,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one
   article
@@ -365,7 +379,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one .square-one-input-box{
     width: 80%;
@@ -379,7 +393,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one .square-one-input-box .square-one-button{
     background-color: #613A1E;
@@ -394,7 +408,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-one .square-one-input-box
   .square-one-input {
@@ -411,7 +425,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-two {
 }
@@ -420,7 +434,7 @@
 
 #site-content
   #menu-bar
-  #content-menu-bar
+  #content-menu-bar #menu-bar-items
   .box-food-menu-bar
   .box-food-square-two
   .square-two-img {
